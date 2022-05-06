@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap");
+
+:root{
+    --borda-azul: #45d3d3;
+    --borda-vermelho: #EA5353;
+    --borda-azul-escuro: #549EF2;
+    --borda-laranja: #FCAF4A;
+    --borda-cor-texto: #A3A5AE;
+}
+
+*{
+    padding: 0; margin: 0; border: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.conteudo h1{
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.conteudo h2 {
+    font-size: 30px;
+}
+
+
+.conteudo p {
+    color: var(--borda-cor-texto);
+    text-align: center;
+
+    margin-top: 20px;
+}
+
+.itens {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    background-color: #FFF;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #aaa;
+    width: 335px;
+    height: 233px;    
+}
+.itens h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.itens p{
+    text-align: left;
+    font-size: 14px;
+}
+.itens img{
+    margin-top: 15px;
+    align-self: flex-end;
+}
+.container{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container .vermelho{
+    border-top: 10px solid var(--borda-vermelho);
+}
+.container .azul-claro{
+    border-top: 10px solid var(--borda-azul);
+}
+.container .azul{
+    border-top: 10px solid var(--borda-azul-escuro);
+}
+.container .laranja{
+    border-top: 10px solid var(--borda-laranja);
+}
+
+.azul-claro,
+.azul {
+    transform: translateY(50%);
+}
+
+@media (max-width: 746px) {
+    .azul-claro,
+    .azul {
+    transform: translateY(0);
+    }
+}
+
+@media (max-width: 500px ) {
+    .conteudo h1 {
+        font-size: 20px;
+    }
+    .conteudo h2 {
+        font-size: 19px;
+    }
+    .conteudo p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 370px) {
+    .conteudo p {
+        font-size: 9px;
+    }
+}
+
