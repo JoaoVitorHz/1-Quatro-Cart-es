@@ -1,5 +1,7 @@
 <h2> Introdução ✧</h2>
-Neste desafio de WebSite, irei fazer alguns projetos simples só pra treinar algumas habilidades 😁, nele foi desenvolvido um sistema de recursos com quatro sessões. <br><br> Desenvolvi esse projeto em vídeo, vai lá assitir: (JÁ VOU COLOCAR O VÍDEO NO YOUTUBE SÓ VOU EDITAR 😅. Mas vai acompanhando alguns outro vídeos que postei por lá!!)<br>
+Neste desafio de WebSite, irei fazer alguns projetos simples só pra treinar algumas habilidades 😁, nele foi desenvolvido um sistema de recursos com quatro sessões. Lembrando que esse layout foi encontrado na internet🧐.
+<br><br> 
+Desenvolvi esse projeto em vídeo, vai lá assitir: (JÁ VOU COLOCAR O VÍDEO NO YOUTUBE SÓ VOU EDITAR 😅. Mas vai acompanhando alguns outro vídeos que postei por lá!!)<br>
 https://www.youtube.com/channel/UCaVUPNWWs0f25HDkOd_UTLg
 
 <h2> Hablidades Usadas ✧</h2>
